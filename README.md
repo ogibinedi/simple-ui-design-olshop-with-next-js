@@ -25,3 +25,5 @@ Sementara untuk mengakses halaman lainya masih dilakukan secara manual, diantara
 -   ``http://localhost:3000/orders/1``Ini halaman pemesanan
 
 Link Demo Livenya dibawah ini:
+
+[Ogi UI Design Olshop](https://ogiui-designolshop.netlify.app/)
