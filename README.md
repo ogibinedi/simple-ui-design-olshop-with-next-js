@@ -1,5 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Simple UI Design Web App Using Next JS
+Advanced web app react using next js framework
+Aplikasi sederhana ini di generate menggunakan framework next js. Bagi teman-teman yang ingin belajar langkah demi langkah pengerjaanya silahkan kunjungi link dibawah ini :
 
+[Lama Dev Channel](https://www.youtube.com/watch?v=vIxGDq1SPZQ&list=RDCMUCOxWrX5MIdXIeRNaXC3sqIg&index=2)
+
+Aplikasi ini masih belum maksimal untuk UI nya karena belum sepenuhnya responsive, masih harus dikembangkan kembali. Aplikasi ini saya buat untuk saya jadikan portfolio hasil belajar saya 
+
+Teman-teman bisa mengunduh aplikasi ini dan bebas untuk dikembangkan kembali, saya juga kedepannya akan meng optimalkan supaya responsive dan menambahkan fungsionalitas pada navigasinya
 ## Getting Started
 
 First, run the development server:
@@ -10,25 +17,11 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sementara untuk mengakses halaman lainya masih dilakukan secara manual, diantaranya yang sudah bisa di akses yaitu halaman berikut ini:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+-   ``http://localhost:3000/`` Ini halaman utama
+-   ``http://localhost:3000/cart`` Ini halaman keranjang belanja
+-   ``http://localhost:3000/product/1`` Ini halaman product detail
+-   ``http://localhost:3000/orders/1``Ini halaman pemesanan
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Link Demo Livenya dibawah ini:

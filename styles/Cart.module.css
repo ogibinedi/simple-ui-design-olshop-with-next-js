@@ -1,0 +1,96 @@
+.container {
+    padding: 50px;
+    display: flex;
+}
+
+.imgContainer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    padding: 20px;
+}
+
+.leftSide {
+    flex: 2;
+}
+
+.rightSide {
+    flex: 1;
+}
+
+.table {
+    border: 1px solid #777;
+}
+
+.tr {
+    border: 1px solid #777;
+}
+
+.responsiveTable {
+    overflow-x: auto;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td,
+.th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.name {
+    font-weight: 500;
+    color: #d1411e;
+    font-size: 18px;
+}
+
+.total {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 16px;
+    max-height: 300px;
+    background-color: #333;
+    padding: 10px 50px 50px 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.totalTextTitle {
+    margin-right: 10px;
+}
+
+.button {
+    height: 30px;
+    color: #d1411e;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .wrapper {
+        margin-left: 1px;
+        margin-top: 20px;
+        width: 100%;
+    }
+}

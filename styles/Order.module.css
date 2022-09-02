@@ -1,0 +1,131 @@
+.container {
+    padding: 50px;
+    display: flex;
+}
+
+.leftSide {
+    flex: 2;
+}
+
+.rightSide {
+    flex: 1;
+}
+
+.table {
+    border: 1px solid #777;
+}
+
+.tr {
+    border: 1px solid #777;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td,
+.th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.row {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.done {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inProgress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: inProgress 1s ease infinite alternate;
+}
+
+@keyframes inProgress {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.undone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.3;
+}
+
+.undone .checkedIcon, 
+.inProgress .checkedIcon {
+    display: none;
+}
+
+.wrapper {
+    margin: 0 16px;
+    width: 90%;
+    max-height: 300px;
+    background-color: #333;
+    padding: 10px 50px 50px 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.totalTextTitle {
+    margin-right: 10px;
+}
+
+.button {
+    background-color: white;
+    height: 30px;
+    color: teal;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: not-allowed;
+    border-radius: 5px;
+}
+
+.responsiveTable {
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .done, .inProgress, .undone {
+
+        margin: 10px;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 1px;
+    }
+}
